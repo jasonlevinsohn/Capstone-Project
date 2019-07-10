@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/monthly_sales_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/appwidget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@color/primary_dark"
+        android:contentDescription="@string/appwidget_header"
+        android:text="@string/appwidget_header"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/appwidget_monthly_sales_number"
+        android:textSize="32sp"
+        android:text="$0.00"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:contentDescription="Monthly Sales in Dollars"
+        android:paddingTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

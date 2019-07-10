@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">L3 Egg Sales</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="time_period_selections">
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year to Date</item>
+    </string-array>
+
+    <string-array name="customer_selections">
+        <item>Natalie</item>
+        <item>Jason</item>
+        <item>Karen</item>
+    </string-array>
+    <string name="appwidget_header">Sales this Month</string>
+    <string name="add_widget">Add widget</string>
+
+    <!--Content Main-->
+    <string name="content_desc_background">Application Background</string>
+    <string name="content_desc_select_time_period">Select a time period</string>
+    <string name="sales_for_text">Sales for</string>
+    <string name="content_desc_time_period_being_shown">time period being showing</string>
+    <string name="content_desc_dollar_amount_being_shown">the dollar amount being shown</string>
+    <string name="dollar_amount_shown_for_time_period">$0.00</string>
+    <string name="recent_transaction_text">Recent Transactions</string>
+    <string name="content_desc_list_of_recent_transactions">A list of the latest transactions listed by oldest date first</string>
+
+    <!--Record Sales-->
+    <string name="add_sale_of_eggs_header">Add Sale of Eggs</string>
+    <string name="customer_header">Customer</string>
+    <string name="date_header">Date</string>
+    <string name="content_desc_customer_selector">Spinner to select a customer</string>
+    <string name="pick_date">Select Date</string>
+    <string name="content_desc_date_picker_dialog">Date Picker Dialog</string>
+    <string name="number_of_dozen_header">Number of Dozen</string>
+    <string name="content_desc_number_picker">Select how many dozen are sold up to 10 dozen</string>
+    <string name="price_per_dozen_header">Price per Dozen</string>
+    <string name="content_desc_price_per_dozen">Select the price per dozen eggs</string>
+    <string name="total_text">Total: </string>
+    <string name="content_desc_total_price">total price of sale</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="content_desc_cancel_button">cancel sale button</string>
+    <string name="btn_record">record</string>
+    <string name="content_desc_record_button">record sale button</string>
+</resources>
